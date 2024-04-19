@@ -5,7 +5,7 @@
     "scripts": {
       "dev": "tailwind build style.css -o /css/tailwind.css",
 
-      "dev1": "tailwind build -i ./src/input.css -o src/bank.css"
+      "dev1": "tailwind build -i ./src/input.css -o src/bank.css -w"
     },
     "author": "",
     "license": "ISC",

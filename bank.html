@@ -10,19 +10,20 @@
     <title>Welcome To fuck Bank</title>
 </head>
 <body>
-    <h1 class="text-2xl font-bold text-red">
-        Hello world!
-      </h1>
-    <div id="loginArea">
-        <h2>Welcome To Mara Khawa Bank</h2>
-        <div id="loginPage">
-            <h3 class="red">Login</h3>
-            <input type="email" name="" id="userEmail" placeholder="Input Email">
-            <input type="password" name="" id="userEmail" placeholder="Input Email">
-
+    <main class="min-h-dvh ">
+        <div class="absolute inset-0">
+            <div id="loginArea" class="mx-auto max-w-2xl mt-16">
+                <h2 class="text-center text-black text-2xl mb-4  font-semibold">Welcome To Mara Khawa Bank</h2>
+                <div id="loginPage" class="mx-auto flex flex-col gap-4 shadow-2xl shadow- p-6">
+                    <h3 class="text-teal-950 font-medium text-xl">Login</h3>
+                    <input type="email" name="" id="userEmail" placeholder="Input Email" class="w-full input">
+                    <input type="password" name="" id="userEmail" placeholder="Enter Password" class="w-full input">
+                    <button type="submit" id="login-btn" class=" btn inline">Enter</button>
+                    
+                </div>
+            </div>
         </div>
-    </div>
-
+    </main>
 <script src="bank.js"></script>
 </body>
 </html> 
