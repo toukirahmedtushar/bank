@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-      "dev": "tailwind build style.css -o /css/tailwind.css",
+     "dev": "tailwind build style.css -o /css/tailwind.css",
 
-      "dev1": "tailwind build -i ./src/input.css -o src/bank.css -w"
+      "dev1": "tailwind build -i ./src/input.css -o dist/bank.css -w"
     },
     "author": "",
     "license": "ISC",

@@ -8,7 +8,7 @@
 // }
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./bank.html",
+  content: ["./dist/bank.html",
     "./src/**/*.{html,js}"],
   theme: {
     extend: {},
