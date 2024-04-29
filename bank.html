@@ -11,17 +11,54 @@
 </head>
 <body>
     <main class="min-h-dvh ">
-        <div class="absolute inset-0">
+        <!-- <div class=" inset-0"> -->
             <div id="loginArea" class="mx-auto max-w-2xl mt-16">
                 <h2 class="text-center text-black text-2xl mb-4  font-semibold">Welcome To Mara Khawa Bank</h2>
                 <div id="loginPage" class="mx-auto flex flex-col gap-4 shadow-2xl shadow- p-6">
                     <h3 class="text-teal-950 font-medium text-xl">Login</h3>
                     <input type="email" name="" id="userEmail" placeholder="Input Email" class="w-full input">
-                    <input type="password" name="" id="userEmail" placeholder="Enter Password" class="w-full input">
+                    <input type="password" name="" id="userPassword" placeholder="Enter Password" class="w-full input">
                     <button type="submit" id="login-btn" class=" btn inline">Enter</button>
                     
                 </div>
             </div>
+        <!-- </div> -->
+        <!------------Transiction? Dashbord------------->
+        <div id="trancsaction" class="hidden mx-auto max-w-2xl mt-16 shadow-2xl shadow- p-6">
+            <p class="text-center  font-semibold text-3xl mb-5 ">Dashboard</p>
+            <div class="grid grid-cols-3 gap-5 text-center ">
+                <div class="bg-sky-700 p-6 text-white rounded-md text-1xl font-medium">
+                    Deposit
+                    <div  class="text-2xl font-bold">
+                        $<span id="deposit">0.00</span>
+                    </div>
+                </div>
+                <div  class="bg-red-600 p-6 text-1xl text-white rounded-md">
+                    Withdraw
+                    <div class="text-2xl font-bold"> $<span id="withdraw">0.00</span></div>
+                </div>
+                <div  class="bg-orange-600 p-6 text-white rounded-md text-1xl font-medium">
+                    Blance
+                    <div class="text-2xl font-bold"> $<span id="blance">0.00</span></div>
+                </div>
+            </div>
+
+
+
+            <div class="grid grid-cols-2 gap-3 mt-10 ">
+                <div  class="shadow-2xl shadow- p-6">
+                    <p>Deposit</p>
+                    <input type="text" id="deposit-amount" class="w-11/12 input mt-2" placeholder="$ Deposit amount">
+                    <button id="deposit-btn" class="btn block text-white !important font-semibold mt-3 ">Deposit</button>
+                </div>
+
+                <div  class="shadow-2xl shadow- p-6">
+                    <p>withdraw</p>
+                    <input type="text" id="withdraw-amount" class="w-11/12 input mt-2" placeholder="$ Withdraw amount">
+                    <button id="withdraw-btn" class="btn block text-white !important font-semibold mt-3 ">Withdraw</button>
+                </div>
+            </div>
+            
         </div>
     </main>
 <script src="bank.js"></script>
